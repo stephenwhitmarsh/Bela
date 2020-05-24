@@ -1,2 +1,3 @@
-# Bela
-Code (mainly pure data) for the Bela Pepper project
+# Code for Bela
+Pure data scripts for the Bela Pepper project (Bela.io). 
+Also see EEGsynth.org
