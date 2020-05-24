@@ -1,0 +1,15 @@
+#N canvas 530 287 158 200 10;
+#X obj 41 36 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 41 56 t b b;
+#X obj 41 79 realtime;
+#X obj 41 125 sel 1;
+#X obj 41 148 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 41 102 > 400;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 1 2 1;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 5 0 3 0;
